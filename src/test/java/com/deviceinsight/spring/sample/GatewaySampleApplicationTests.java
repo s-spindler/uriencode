@@ -1,4 +1,4 @@
-package org.springframework.cloud.gateway.sample;
+package com.deviceinsight.spring.sample;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 

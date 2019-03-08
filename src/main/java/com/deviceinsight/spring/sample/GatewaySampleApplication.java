@@ -1,4 +1,4 @@
-package org.springframework.cloud.gateway.sample;
+package com.deviceinsight.spring.sample;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +20,6 @@ public class GatewaySampleApplication {
 		//@formatter:off
 		return builder.routes()
 				.route(r -> r.path("/anything/*")
-					.filters(f -> f.prefixPath("/httpbin"))
 					.uri(uri)
 				)
 				.build();
